@@ -1,4 +1,18 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: right;
+  width: 300px;
+  background-color: hsl(0, 0%, 27%);
+  border-radius: 20px;
+  height: 20px;
+}
+.App div {
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+span {
+  margin-right: 3px;
 }
